@@ -1,0 +1,389 @@
+.page{
+    background-color:teal;
+    color:white;
+}
+.headerpart{
+    max-width: 1000px;
+    height: 200px;
+    background-color:rgb(84, 182, 182);
+    margin:0 auto;
+    padding:10px;
+    float: center;
+}
+.logo1{
+    width:120px;
+    height:120px;
+    float:left;
+    margin-left: 20px ;
+    margin-top: 30px;
+    padding:0px;
+}
+.logo2{
+    width:120px;
+    height:120px;
+    float:right;
+    margin-right: 20px ;
+    margin-top: 30px;
+    padding:0px;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header-bio{
+    text-align:center;
+    color:rgb(16, 37, 49);
+}
+.links-part a{
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.links-part{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: black;
+}
+.links-part a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 80%;
+}
+.bodypart{
+    width:100%;
+    height:100%;;
+    border-style: groove;
+}
+.bodypart .imagepart{
+    width:900px;
+    height:450px;
+    border-style: groove;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.bodypart .imagepart .carousel-item{
+    width: 900px;
+    height: 450px;
+}
+.bodypart .newspart{
+    width:440px;
+    height:50px;
+    border-style:groove;
+    float: right;
+}
+.bodypart .newspart h2{
+    color: rgb(134, 13, 13);
+    text-align: center;
+}
+.bodypart .newspart .news{
+    width: 445px;
+    height: 400px;
+    border-style:groove;
+}
+.bodypart .member{
+    width:100%;
+    height:650px;
+    border-style: groove;
+}
+.bodypart .member .head{
+    width: 120px;
+    height: 130px;
+    margin-left: 45%;
+    border: solid gray 1px;
+    border-radius: 50%;
+}
+.member h6{
+    margin-top: 5px;
+    text-align: center;
+}
+.bodypart .member .shape{
+    width:100%;
+    height:50px;
+    border-style: groove;
+    text-align: center;
+    background-color: cadetblue;
+}
+.bodypart .member .teacher .rakib {
+    width:30%;
+    height:120px;
+    border-style: groove;
+    float:left;
+    border-radius: 10%;
+    margin: 5px;
+    margin-left: 50px;
+}
+.bodypart .member .teacher .rakib img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    border-radius: 30%;
+}
+.bodypart .member .teacher .rakib p{
+    color: teal;
+    background-color: lavender;
+    height: 120px;
+    border: groove gray 2px;
+    border-radius: 10%;
+    padding: 25px;
+    text-align: center;
+}
+.bodypart .member .teacher .sumon {
+    width:30%;
+    height:120px;
+    border-style: groove;
+    border-radius: 10%;
+    float: left;
+    margin: 5px;
+}
+.bodypart .member .teacher .sumon img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    border-radius: 30%;
+}
+.bodypart .member .teacher .sumon p{
+    color: teal;
+    background-color: lavender;
+    height: 120px;
+    border: groove gray 2px;
+    border-radius: 10%;
+    padding: 25px;
+    text-align: center;
+}
+.bodypart .member .teacher .tuhin {
+    width:30%;
+    height:120px;
+    border-style: groove;
+    border-radius: 10%;
+    float: left;
+    margin: 5px;
+}
+.bodypart .member .teacher .tuhin img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    border-radius: 30%;
+}
+.bodypart .member .teacher .tuhin p{
+    color: teal;
+    background-color: lavender;
+    height: 120px;
+    border: groove gray 2px;
+    border-radius: 10%;
+    padding: 25px;
+    text-align: center;
+}
+.bodypart .member .teacher .rasel {
+    width:30%;
+    height:120px;
+    border-style: groove;
+    border-radius: 10%;
+    float: left;
+    margin: 5px;
+    margin-left: 50px;
+}
+.bodypart .member .teacher .rasel img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    border-radius: 30%;
+}
+.bodypart .member .teacher .rasel p{
+    color: teal;
+    background-color: lavender;
+    height: 120px;
+    border: groove gray 2px;
+    border-radius: 10%;
+    padding: 25px;
+    text-align: center;
+}
+
+.bodypart .member .teacher .samia {
+    width:30%;
+    height:120px;
+    border-style: groove;
+    border-radius: 10%;
+    float: left;
+    margin: 5px;
+}
+.bodypart .member .teacher .samia img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    border-radius: 30%;
+}
+.bodypart .member .teacher .samia p{
+    color: teal;
+    background-color: lavender;
+    height: 120px;
+    border: groove gray 2px;
+    border-radius: 10%;
+    padding: 25px;
+    text-align: center;
+}
+.bodypart .member .teacher .sujit {
+    width:30%;
+    height:120px;
+    border-style: groove;
+    border-radius: 10%;
+    float: left;
+    margin: 5px;
+}
+.bodypart .member .teacher .sujit img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    border-radius: 30%;
+}
+.bodypart .member .teacher .sujit p{
+    color: teal;
+    background-color: lavender;
+    height: 120px;
+    border: groove gray 2px;
+    border-radius: 10%;
+    padding: 25px;
+    text-align: center;
+}
+ .bodypart .bottom{
+    width:100%;
+    height:80px;
+    border-style: groove;
+    background-color:rgb(71, 50, 23);
+    text-align: center;
+    margin-top: 5px;
+    padding:10px;
+}
+.bodypart .bottom p{
+    color:rgb(5, 146, 132);
+    margin:10px;
+}
+.bodypart .bottom a{
+    color:skyblue;
+    text-decoration: none;
+    margin:20px;
+}
+.bodypart .bottom a:hover{
+    color:rgb(211, 134, 99);
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px){
+    .headerpart{
+        max-width: 1000px;
+        height: 100px;
+        background-color:rgb(84, 182, 182);
+        margin:0 auto;
+        padding:10px;
+        float: center;
+    }
+    .logo1{
+        width:80px;
+        height:80px;
+        float:left;
+        margin-left: 10px ;
+        margin-top: 15px;
+        padding:0px;
+    }
+    .logo2{
+        display: none;
+        
+        
+    }
+    .header-bio h2{
+        font-size: 22px;
+    }
+    .header-bio h5{
+        display: none;
+    }
+
+
+    .links-part{
+        flex-direction: column; 
+        background-color: white;
+        
+    }
+    .links-part a {
+        color: black;
+        text-align: center;
+    }
+    .links-part a:hover{
+        background-color: darkgrey;
+    } 
+    .bodypart .newspart{
+        display: none;
+    }
+    
+    .bodypart .newspart .news{
+        display: block;
+    }
+    .bodypart .member{
+        width:100%;
+        height:900px;
+        border-style: groove;
+    }
+    .bodypart .member .teacher .rakib {
+        width:50%;
+        height:120px;
+        border-style: groove;
+        float:left;
+        border-radius: 10%;
+        margin: 5px;
+    }
+    .bodypart .member .teacher .sumon {
+        width:45%;
+        height:120px;
+        border-style: groove;
+        float:left;
+        border-radius: 10%;
+        margin: 5px;
+    }
+    .bodypart .member .teacher .tuhin {
+        width:50%;
+        height:120px;
+        border-style: groove;
+        float:left;
+        border-radius: 10%;
+        margin: 5px;
+    }
+    .bodypart .member .teacher .rasel {
+        width:45%;
+        height:120px;
+        border-style: groove;
+        float:left;
+        border-radius: 10%;
+        margin: 5px;
+    }
+    .bodypart .member .teacher .samia {
+        width:50%;
+        height:120px;
+        border-style: groove;
+        float:left;
+        border-radius: 10%;
+        margin: 5px;
+    }
+    .bodypart .member .teacher .sujit {
+        width:45%;
+        height:120px;
+        border-style: groove;
+        float:left;
+        border-radius: 10%;
+        margin: 5px;
+    }
+    .bodypart .bottom{
+        width:100%;
+        height:100px;
+        border-style: groove;
+        background-color:rgb(71, 50, 23);
+        text-align: center;
+    }
+}
